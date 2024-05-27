@@ -1,0 +1,10 @@
+{
+  "message": "hola i18n !!",
+  "login-title": "Log In",
+  "login-explanation": "Enter the password sent in the email you received. While you complete the questionaire the answers will be saved",
+  "login-button": "Send",
+  "syncronizing": "Saving...",
+  "syncronized": "Saved",
+  "password": "Password",
+  "error-server": "There was an error when connecting to the server"
+}

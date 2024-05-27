@@ -1,0 +1,10 @@
+{
+  "message": "hola i18n !!",
+  "login-title": "Saioaren hasiera",
+  "login-explanation": "Email bidez jaso duzun pasahitza sartu. Inkesta osatu bitartean, zure erantzunak gorde egingo dira",
+  "login-button": "Bidali",
+  "syncronizing": "Gordetzen…",
+  "syncronized": "Gordeta",
+  "password": "Pasahitza",
+  "error-server": "Errorea gertatu da zerbitzariarekin konektatzean"
+}

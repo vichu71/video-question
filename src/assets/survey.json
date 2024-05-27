@@ -1,0 +1,50 @@
+{
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "Pagina1",
+      "elements": [
+        {
+         "type": "expression",
+         "name": "Pregunta1"
+        }
+       ]
+     },
+     {
+      "name": "Página2",
+      "elements": [
+       {
+        "type": "expression",
+        "name": "Pregunta2"
+       }
+      ]
+     },
+     {
+      "name": "Página3",
+      "elements": [
+       {
+        "type": "expression",
+        "name": "Pregunta3"
+       }
+      ]
+     },
+     {
+      "name": "Página4",
+      "elements": [
+       {
+        "type": "expression",
+        "name": "Pregunta4"
+       }
+      ]
+     },
+     {
+      "name": "Página5",
+      "elements": [
+       {
+        "type": "expression",
+        "name": "Pregunta5"
+       }
+      ]
+     }
+    ]
+   }

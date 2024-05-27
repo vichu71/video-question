@@ -1,0 +1,50 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port \"8100\" --mode staging",
+    "build": "vue-cli-service build",
+    "buildproduction": "vue-cli-service build",
+    "buildstaging": "vue-cli-service build --mode staging",
+    "builddocker": "vue-cli-service build --mode docker",
+    "production": "vue-cli-service serve --mode production",
+    "ui": "vue ui",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bootstrap": "^3.3.7",
+    "showdown": "^2.1.0",
+    "survey-vue": "^1.9.19",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-class-decorator": "^7.6.3",
+    "vue-i18n": "^8.27.0",
+    "vue-loader": "^15.9.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify": "^2.6.3",
+    "webgazer": "^3.0.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.7.95",
+    "@mdi/js": "^6.5.95",
+    "@types/webpack": "^4.41.1",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-pwa": "^3.12.1",
+    "@vue/cli-plugin-typescript": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "deepmerge": "^4.2.2",
+    "sass": "^1.49.7",
+    "sass-loader": "^7.3.1",
+    "ts-loader": "^8.0.15",
+    "typescript": "^4.2.2",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vuetify-loader": "^1.4.3",
+    "webpack-bundle-analyzer": "^4.5.0"
+  }
+}

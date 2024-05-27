@@ -1,0 +1,26 @@
+
+version: 0.2
+phases:
+    install:
+        runtime-versions:
+            nodejs: 14
+        commands:
+            - echo Installing source NPM dependencies...
+            - npm --production=false install
+    build:
+        commands:
+            - echo Build started on `date`
+            - npm run build${NODE_ENV}
+    post_build:
+        commands:
+          - |
+            if test -d dist; then
+              aws s3 rm s3://${S3_BUCKET} --recursive
+              aws s3 cp dist s3://${S3_BUCKET} --recursive --acl public-read-write
+              echo Build completed on `date`
+            fi
+artifacts:
+    files:
+        - '**/*'
+    base-directory: 'dist*'
+    discard-paths: yes
